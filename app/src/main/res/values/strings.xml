@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JakaPermana_Android_L</string>
+    <string name="nama">Nama</string>
+    <string name="isi_nama_lengkap">Isi Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="isi_dengan_email_valid">Isi dengan email valid</string>
+    <string name="no_telp">No. Telp</string>
+    <string name="isi_dengan_nomor_yang_aktif">Isi dengan nomor yang aktif</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="isi_tanggal_lahir">Isi tanggal lahir</string>
+    <string name="jumlah_sks">Jumlah SKS</string>
+    <string name="masukkan_jumlah_sks">Masukkan jumlah SKS</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+
+</resources>
