@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_tanggal_lahir"
         android:inputType="date"
-        android:autofillHints=""
+        android:autofillHints="tanggal"
         android:layout_marginBottom="8dp"
         />
 
@@ -82,8 +82,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/masukkan_jumlah_sks"
         android:inputType="number"
-        android:autofillHints=""
+        android:autofillHints="sks"
         android:layout_marginBottom="8dp"
+        android:text="0"
         />
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,5 +1,6 @@
 package com.example.jakapermana_android_l
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -22,9 +23,17 @@ class MainActivity : AppCompatActivity() {
 
         simpanBtn.setOnClickListener{
             val nama = namaEditText.text.toString()
+            val email = emailEditText.text.toString()
             var jumlahSKS = jumlahSKSEditText.text.toString().toInt()
             jumlahSKS = 160 - jumlahSKS
             Toast.makeText(this, "Sisa SKS... $jumlahSKS",Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this,ResultActivity::class.java)
+            intent.putExtra("nama",nama)
+            intent.putExtra("email",email)
+            intent.putExtra("jumlah_sks",jumlahSKS)
+            startActivity(intent)
+
         }
         batalBtn.setOnClickListener{
             Toast.makeText(this, "Batal...",Toast.LENGTH_SHORT).show()
